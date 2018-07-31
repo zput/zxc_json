@@ -1,0 +1,39 @@
+﻿  Writer.cc
+e:\visual_studio\json_pg\project1\project1\writer.cc(91): warning C4068: 未知的杂注
+e:\visual_studio\json_pg\project1\project1\writer.cc(92): warning C4068: 未知的杂注
+e:\visual_studio\json_pg\project1\project1\writer.cc(128): warning C4068: 未知的杂注
+e:\visual_studio\json_pg\project1\project1\writer.cc(119): warning C4244: “=”: 从“uint64_t”转换到“char”，可能丢失数据
+  e:\visual_studio\json_pg\project1\project1\writer.cc(155): note: 参见对正在编译的函数 模板 实例化“unsigned int `anonymous-namespace'::itoa_<uint64_t>(T,char *)”的引用
+          with
+          [
+              T=uint64_t
+          ]
+e:\visual_studio\json_pg\project1\project1\writer.cc(122): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned int”，可能丢失数据
+  print_document.cc
+e:\visual_studio\json_pg\project1\project1\reader.h(210): warning C4101: “idx”: 未引用的局部变量
+  e:\visual_studio\json_pg\project1\project1\reader.h(406): note: 参见对正在编译的函数 模板 实例化“void zxc_json::Reader::parseNumber<ReadStream,Handler>(ReadStream &,Handler &)”的引用
+          with
+          [
+              ReadStream=zxc_json::StringReadStream,
+              Handler=zxc_json::Document
+          ]
+  e:\visual_studio\json_pg\project1\project1\reader.h(26): note: 参见对正在编译的函数 模板 实例化“void zxc_json::Reader::parseValue<ReadStream,Handler>(ReadStream &,Handler &)”的引用
+          with
+          [
+              ReadStream=zxc_json::StringReadStream,
+              Handler=zxc_json::Document
+          ]
+  e:\visual_studio\json_pg\project1\project1\document.h(33): note: 参见对正在编译的函数 模板 实例化“zxc_json::ParseError zxc_json::Reader::parse<ReadStream,zxc_json::Document>(ReadStream &,Handler &)”的引用
+          with
+          [
+              ReadStream=zxc_json::StringReadStream,
+              Handler=zxc_json::Document
+          ]
+  e:\visual_studio\json_pg\project1\project1\document.h(27): note: 参见对正在编译的函数 模板 实例化“zxc_json::ParseError zxc_json::Document::parseStream<zxc_json::StringReadStream>(ReadStream &)”的引用
+          with
+          [
+              ReadStream=zxc_json::StringReadStream
+          ]
+e:\visual_studio\json_pg\project1\project1\reader.h(246): warning C4101: “e”: 未引用的局部变量
+  正在生成代码...
+  Project1.vcxproj -> E:\Visual_Studio\json_pg\Project1\x64\Debug\Project1.exe
